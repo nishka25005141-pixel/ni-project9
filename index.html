@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Online Magazine</title>
+<style>
+body{font-family:Arial;margin:0;background:#f9f9f9;color:#333}
+header{background:#222;color:#fff;padding:15px;text-align:center}
+nav{background:#444;padding:10px;text-align:center}
+nav a{color:#fff;margin:0 10px;text-decoration:none}
+section{padding:20px;max-width:900px;margin:auto}
+h2{color:#c0392b;margin-bottom:10px}
+.article{background:#fff;border:1px solid #ccc;border-radius:8px;padding:10px;margin:10px 0}
+.article img{width:250px;height:auto;border-radius:6px;margin:8px 0} /* short size images */
+form{display:flex;flex-direction:column;gap:10px}
+input{padding:8px;border:1px solid #ccc;border-radius:4px}
+button{background:#c0392b;color:#fff;padding:8px;border:none;border-radius:4px}
+</style>
+</head>
+<body>
+<header>
+  <h1>📰 Insight Magazine</h1>
+  <p>Fresh perspectives on news & lifestyle</p>
+</header>
+<nav>
+  <a href="#">World</a>
+  <a href="#">Tech</a>
+  <a href="#">Health</a>
+  <a href="#">Culture</a>
+</nav>
+
+<section>
+  <h2>Featured Articles</h2>
+  <div class="article">
+    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400" alt="Summit">
+    <h3>Global Summit on Climate</h3>
+    <p>Leaders discuss urgent steps to tackle climate change and sustainable growth.</p>
+  </div>
+  <div class="article">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400" alt="Tech">
+    <h3>AI Innovations in 2025</h3>
+    <p>Artificial Intelligence continues to reshape industries and everyday life.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Subscribe</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <button type="submit">Subscribe Now</button>
+  </form>
+</section>
+</body>
+</html>
